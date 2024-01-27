@@ -4,72 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="shortcut icon" href="assest/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script async src="app.js"></script>
+    <link rel="shortcut icon" href="assest/logo.ico" type="image/x-icon">
+    <script defer src="app.js"></script>
 </head>
 <body>
     <div class="wrapper">
-        <!-- Left Side Of The Page Fixed Pos -->
-        <main>
-            <!--Heading Intro -->
+        <!-- Right Side Of the Page unscrollable side -->
+        <div class="main">
+
             <div class="intro">
                 <header>Kaino Here!</header>
                 <div class="sub-header">A Front End Developer</div>
                 <div class="intro-text">
-                    Hello! My name is <span class="deco-1">Naing Lin Htet</span> but you can call me Kaino. I am currently studying Front End Development. I can help you converting your <span class="deco-1">Figma Design into Code.</span> 
-                    Don't worry I won't charge, I will do it for my experience but I wont't say no to tips tho. Contact Me if you are interested.
+                    Hello! I go by the name "Kaino", although my real name is <span class="deco-1">Naing Lin Htet</span>. At present, I am dedicated to enhance my skills as a Front End Developer. So if you require assistance <span class="deco-1">in transforming your Web Design into functional code</span>, I am here to lend a hand. No Worry, I won't ask for any payment as I'm doing it to gain experience. However, I wouldn't mind some tips if you feel inclined to give them. Feel free to reach out to me if you are interested in collaborating.
                 </div>
-            </div>    
-
-            <!-- Personal Information -->
-            <div class="info">
-                <ul>
+            </div>
+            <div class="personal-info">
+                <ul class="info">
+                    <li><img src="assest/user.png" alt="User" class="info-logo"></li>
                     <li>Naing Lin Htet</li>
+                    <li><img src="assest/phone.png" alt="Ph Number" class="info-logo"></li>
                     <li>+959 756 513 315</li>
+                    <li><img src="assest/mail.png" alt="Email" class="info-logo"></li>
                     <li>nainglinhtet1810@gmail.com</li>
                 </ul>
                 <div class="nav">
-                    <a href="https://github.com/NaingLinHtet01" target="_blank"><img src="assest/github.png" alt="GitHub" class="nav-symbol"></a>
-                    <a href="https://www.facebook.com/naing.linhtet.758/" target="_blank"><img src="assest/facebook.png" alt="Facebook" class="nav-symbol"></a>
-                    <a href="mailto:nainglinhtet1810@gmail.com" target="_blank"><img src="assest/email.png" alt="Email" class="nav-symbol"></a>
+                    <a href="https://github.com/NaingLinHtet01" target="_blank"><img src="assest/github.png" alt="GitHub" class="nav-logo glow"></a>
+                    <a href="https://www.facebook.com/naing.linhtet.758/" target="_blank"><img src="assest/facebook.png" alt="Facebook" class="nav-logo glow"></a>
+                    <a href="mailto:nainglinhtet1810@gmail.com" target="_blank"><img src="assest/email.png" alt="Email" class="nav-logo glow"></a>
                 </div>
             </div>
-        </main>
 
-        <!-- Right Side Of The Page The Scrolling One -->
-        <div class="right">
-            <section class="description">
-                <p><span class="deco-1">I really enjoy coding not gonna lie!</span>
-                I know loving coding alone won't help me improving my skill or my experience. That's why I am offering to help you build your Web Design into working code. Basically it's a Win Win for both of us. But you must mention me in your website. I personally use vanilla HTML,CSS,JS. But I can also use Bootstrap Tailwind and React.
-                </p>
-            </section>
-            <section class="skills">
+        </div>
+        <div class="scroll-side">
+            <div class="description">
+                <p><span class="deco-1">Not gonna lie I absolutely love coding! </span>
+                    But hey, I know that just loving it won't make me better or more experienced. That's why I'm here to lend a hand . It's a win-win situation for both of us, but all I ask is for a little shoutout on your website. I know vanilla HTML, CSS, and JS so well and I'm also comfortable using Bootstrap, Tailwind, and React. Let's make some magic happen!
+                    </p>
+            </div>
+            <div class="skill">
                 <h1>These are my skills</h1>
                 <div class="skill-card-container">
-                    <div class="skill-card"><img src="assest/html.png" alt="HTML">
+                    <div class="skill-card"><img src="assest/html.png" alt="HTML" class="card-logo">
                         HTML
                     </div>
-                    <div class="skill-card"><img src="assest/css.png" alt="CSS">
+                    <div class="skill-card"><img src="assest/css.png" alt="CSS" class="card-logo">
                         CSS
                     </div>
-                    <div class="skill-card"><img src="assest/javascript.png" alt="JS">
+                    <div class="skill-card"><img src="assest/javascript.png" alt="JS" class="card-logo">
                         JavaScript
                     </div>
-                    <div class="skill-card"><img src="assest/bootstrap.png" alt="Bootstrap">
+                    <div class="skill-card"><img src="assest/bootstrap.png" alt="Bootstrap" class="card-logo">
                         Bootstrap
                     </div>
-                    <div class="skill-card"><img src="assest/tailwind.png" alt="Tailwind">
+                    <div class="skill-card"><img src="assest/tailwind.png" alt="Tailwind" class="card-logo">
                         Tailwind
                     </div>
-                    <div class="skill-card"><img src="assest/react.png" alt="React">
+                    <div class="skill-card"><img src="assest/react.png" alt="React" class="card-logo">
                         React
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
-    <div class="flash-light"></div>
     <div class="cube">
         <div class="cube-side c-front"></div>
         <div class="cube-side c-back"></div>
@@ -78,5 +76,6 @@
         <div class="cube-side c-bottom"></div>
         <div class="cube-side c-top"></div>
     </div>
+    <div class="flash-light"></div>
 </body>
 </html>
