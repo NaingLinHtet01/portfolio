@@ -7,31 +7,31 @@ import { OrbitControls } from "@react-three/drei";
 const Home = () => {
   return (
     <div>
-      <div className="font-roboto bg-[#1A191D] flex w-screen h-screen">
+      <div className="font-roboto flex sm:flex-row flex-col w-screen h-screen">
         {/* Left Side */}
-        <div className="h-screen w-1/2 flex flex-col justify-center items-center">
-          <h1 className="text-5xl font-bold text-white">NAING LIN HTET</h1>
-          <h2 className="text-[#86C232] text-2xl font-semibold mt-4">
+        <div className="h-screen sm:w-1/2 flex flex-col justify-center items-center">
+          <h1 className="text-2xl sm:text-3xl md:4xl font-bold text-white">NAING LIN HTET</h1>
+          <h2 className="text-[#86C232] text-lg sm:text-2xl font-semibold mt-4">
             Front End Developer
           </h2>
-          <h2 className="text-[#6B6E70] text-xl font-semibold mt-4">
+          <h2 className="text-[#6B6E70]  sm:text-xl font-semibold mt-4">
             Coding is my calling!
           </h2>
           <div className="flex mt-8 w-full gap-8 justify-center">
-            <a href="#" target="_blank">
-              <img src={assets.github} alt="github" className='w-8 hover:-translate-y-1 transition-all duration-200'/>
+            <a href="https://github.com/NaingLinHtet01" target="_blank">
+              <img src={assets.github} alt="github" className='w-6 sm:w-8 hover:-translate-y-1 transition-all duration-200'/>
             </a>
-            <a href="#" target="_blank">
-              <img src={assets.linkedin} alt="linkedin" className='w-8 hover:-translate-y-1 transition-all duration-200'/>
+            <a href="https://www.linkedin.com/in/naing-lin-htet-71b671315" target="_blank">
+              <img src={assets.linkedin} alt="linkedin" className='w-6 sm:w-8 hover:-translate-y-1 transition-all duration-200'/>
             </a>
             <a href={assets.resume} target="_blank">
-              <img src={assets.profile} alt="linkedin" className='w-8 hover:-translate-y-1 transition-all duration-200'/>
+              <img src={assets.profile} alt="linkedin" className='w-6 sm:w-8 hover:-translate-y-1 transition-all duration-200'/>
             </a>
           </div>
         </div>
 
         {/* Right Side Cube*/}
-        <div className="h-screen canvas-container w-1/2 flex justify-center items-center">
+        <div className="h-screen canvas-container sm:w-1/2 flex justify-center items-center">
           <Canvas>
             <OrbitControls />
               <Sphere/>

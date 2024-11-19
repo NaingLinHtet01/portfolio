@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-        <div className="bg-[#1A191D]">
-            <div className="grid grid-cols-2 grid-rows-2 gap-12 px-8 py-12">
+        <div>
+            <div className="flex flex-col  sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-12 px-8 py-12">
                 {/* Libraries and Framework */}
                 <div className="row-span-2  bg-[#121114] rounded-md shadow-[0px_0px_5px_2px_#000] px-8 py-4 hover:-translate-y-4 hover:text-[#61892F] text-[#6B6E70] transition-all duration-500">
                     <h1 className="text-2xl font-bold">Libraries and Framework</h1>
