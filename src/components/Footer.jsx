@@ -9,16 +9,15 @@ const Footer = () => {
                 <div>
                 <li className='mt-1 font-semibold'>NAING LIN HTET</li>
                 <li className='mt-1 font-semibold'>nainglinhtet1810@gmail.com</li>
-                <li className='mt-1 font-semibold'>+959-944-080-485</li>
                 <button onClick={() => window.location = 'mailto:nainglinhtet1810@gmail.com'} className='bg-[#000] px-3 py-2 mt-4 rounded text-white hover:-translate-y-1 hover:bg-blue-700 transition-all duration-500'>Contact Me</button>
 
                 </div>
             </ul>
             <div className='flex justify-center items-center px-16 gap-8'>
-                <a href="#" target="_blank">
+                <a href="https://github.com/NaingLinHtet01" target="_blank">
                   <img src={assets.github} alt="github" className='w-8 hover:-translate-y-1 transition-all duration-300'/>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/naing-lin-htet-71b671315" target="_blank">
                   <img src={assets.linkedin} alt="linkedin" className='w-8 hover:-translate-y-1 transition-all duration-300'/>
                 </a>
             </div>
